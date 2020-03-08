@@ -34,6 +34,7 @@ class CameraViewController: UIViewController,UIImagePickerControllerDelegate, UI
             if success{
                 self.dismiss(animated: true, completion: nil)
                 print("saved!")
+                
             } else {
                 print("error!")
             }

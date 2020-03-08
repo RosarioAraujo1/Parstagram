@@ -23,6 +23,7 @@ class FeedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         tableView.dataSource = self
         // Do any additional setup after loading the view.
     }
+    
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         let query = PFQuery(className: "Posts")
@@ -35,6 +36,7 @@ class FeedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
             }
         }
     }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
          return posts.count
      }
@@ -56,6 +58,6 @@ class FeedViewController: UIViewController, UITableViewDelegate,UITableViewDataS
         cell.photoView.af_setImage(withURL: url)
         return cell
     }
- 
+  
     
 }
