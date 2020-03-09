@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4E904F2415EBE600392D23 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4E904E2415EBE600392D23 /* CommentCell.swift */; };
 		1A851CA3240CDE2400DF4E27 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A851CA2240CDE2400DF4E27 /* FeedViewController.swift */; };
 		1A851CA5240CDE3A00DF4E27 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A851CA4240CDE3A00DF4E27 /* LoginViewController.swift */; };
 		1A851CA7240F2F1F00DF4E27 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A851CA6240F2F1F00DF4E27 /* CameraViewController.swift */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		0C6D569BB1DD0CAFDCF1A4AB /* Pods_ParstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4E904E2415EBE600392D23 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		1A851CA2240CDE2400DF4E27 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		1A851CA4240CDE3A00DF4E27 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1A851CA6240F2F1F00DF4E27 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				1AB6D737240C70F600899027 /* Assets.xcassets */,
 				1AB6D739240C70F600899027 /* LaunchScreen.storyboard */,
 				1AB6D73C240C70F600899027 /* Info.plist */,
+				1A4E904E2415EBE600392D23 /* CommentCell.swift */,
 			);
 			path = Parstagram;
 			sourceTree = "<group>";
@@ -422,6 +425,7 @@
 				1A851CA3240CDE2400DF4E27 /* FeedViewController.swift in Sources */,
 				1AB6D731240C70F300899027 /* SceneDelegate.swift in Sources */,
 				1A851CA9240F8D6200DF4E27 /* PostCell.swift in Sources */,
+				1A4E904F2415EBE600392D23 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
